@@ -1,0 +1,34 @@
+{
+  "name": "movie-site",
+  "version": "1.0.0",
+  "description": "Киносайт на чистом js",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&webpack serve",
+    "build:dev": "set NODE_ENV=development&&webpack",
+    "build:prod": "set NODE_ENV=production&&webpack",
+    "clean": "rd /s /q dist"
+  },
+  "author": "Вельман Георгий",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.22.9",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "image-webpack-loader": "^8.1.0",
+    "node-sass": "^9.0.0",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
